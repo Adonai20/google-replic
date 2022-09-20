@@ -1,0 +1,162 @@
+:root{  
+    --colorText:#242222;}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    box-sizing: border-box;
+    font-family: 'Edu NSW ACT Foundation', cursive;}
+
+a,span{
+    color: #6c6c6c;
+    text-decoration: none;
+    cursor: pointer;}    
+
+/*
+    HEADER
+*/
+
+header{    
+    width: 100%}
+
+nav{
+    display: flex;
+    justify-content: flex-end;}
+
+header nav .nav-right-section{
+    width: 250px;
+    height: 40px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    list-style: none;}
+
+nav .nav-right-section a{
+    margin-right: 20px;
+    color: var(--colorText);}
+
+nav .nav-right-section .material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48}
+
+.perfil{
+    margin-top: 5px;
+    width: 30px;
+    border-radius: 10px;}
+
+/*
+    MAIN
+*/ 
+
+main{
+    width: 100%;
+    margin-top: 250px;
+    text-align: center;}
+
+main .main-logo{
+    width: 80%px;
+    margin: 0 auto;
+    margin-bottom: 10px;}
+
+main .main-logo img{
+    margin: 0 auto;
+    height: 120px;}
+
+ /*
+    INPUT
+ */   
+ 
+main .main-input{
+    margin-top: 5px;
+    width: 450px;
+    margin: 0 auto;
+    margin-bottom: 35px;}   
+
+main .main-input-container{
+    margin: auto;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2px;}
+
+.main-input-container input{
+    width: 85%;
+    height: 30px;
+    outline: none;
+    border: none;}
+    
+.main-input-container:hover{
+    border: 1px solid  #dfe1e500;
+    box-shadow: 0 0px 6px 0px #20212447;}
+
+main .main-input .icon-micriphone{
+    background-image: url(https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 22px;
+    height: 22px;
+    cursor:pointer;}
+
+/*
+    Button
+*/
+
+main .main-button{
+    display: flex;  
+    justify-content: center;
+    align-content: center;  
+    margin-top: 0px;}
+
+main .main-button-container button{
+    height: 36px;
+    margin-right: 15px;
+    padding: 0 15px;
+    font-size: 14px;
+    cursor: pointer;
+    border: 0;
+    border-radius: 5px;
+    color:  var(--colorText);
+    background-color: #f2f2f2;} 
+
+.main-button-container button:hover{
+    border: 1px solid  #c6c6c6;
+    box-shadow: 0px 0px 1px 0px #908d8d;}  
+
+/*
+    FOOTER
+*/
+
+footer{
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 13px;
+    background-color: #f2f2f2;}
+
+footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;}
+
+footer .footer-right{
+    justify-self: right;}
+
+footer .footer-left{
+    justify-self: left;}
+
+footer ul li a{
+    margin:10px;
+    color: #5f6368;
+}    
